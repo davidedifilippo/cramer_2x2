@@ -18,8 +18,8 @@ Includere cramer_lib.h nel programma principale che possiamo chimare Cramer.cpp:
 
 DA questo momento possiamo calcolare la soluzione di sistemi del tipo:
 
-     ax + by = c
-     dx + ey = f
+     ax + by = e
+     cx + dy = f
 
 Ad esempio:
 
@@ -31,7 +31,7 @@ Ad esempio:
     
 Usiamo la libreria per calcolare D:
 
-    int determinante = D(a,d,b,e); 
+    int determinante = D(a,c,b,d); 
     
 ossia nel nostro esempio:
 
@@ -57,17 +57,16 @@ Che dovrebbe stampare 2
 
 Se determinante != 0 posso calcolare l'ascissa della soluzione:
 
-    int   Dx = D(c,f,b,e);
+    int   Dx = DX(e,f,b,d);
     float x = Dx/determinante;
-
 
 
 ## Calcolo della y soluzione 
 
 Se determinante != 0 posso calcolare l'ordinata della soluzione:
 
-     int   Dy = D(a,d,c,f);
-     float y = Dx/determinante;
+     int   Dy = DY(a,c,e,f);
+     float y = Dy/determinante;
      
 A questo punto basta stampare. La soluzione dovrebbe essere x = 0, y= 1
      
