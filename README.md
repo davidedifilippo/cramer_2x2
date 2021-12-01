@@ -1,10 +1,10 @@
-# cramer_2x2
+# Cramer_2x2
 
 Scaricare il file o copiare il codice in un file di nome 
 
         cramer_lib.h 
         
-Includere cramer_lib.h nel programma principale:
+Includere cramer_lib.h nel programma principale che possiamo chaimare Cramer.cpp:
 
     #include <iostream>
     #include "cramer_lib.h"
