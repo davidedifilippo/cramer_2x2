@@ -66,7 +66,7 @@ Se determinante != 0 posso calcolare l'ascissa della soluzione:
 
 Se determinante != 0 posso calcolare l'ordinata della soluzione:
 
-     int   Dx = D(c,f,b,e);
+     int   Dy = D(a,d,c,f);
      float y = Dx/determinante;
      
 A questo punto basta stampare. La soluzione dovrebbe essere x = 0, y= 1
