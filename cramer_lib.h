@@ -1,11 +1,11 @@
-int D(int a1,int b1,int a2,int b2){
-return a1*b2-a2*b1;
+int D(int a,int d,int b,int e){
+return a*b-d*e;
 }
 
-int DX(int c1, int c2, int b1, int b2){
-return (c1*b2-c2*b1);
+int DX(int f, int g, int b, int e){
+return (f*g-b*e);
 }
 
-int DY(int a1, int a2, int c1, int c2){
-return a1*c2-a2*c1;
+int DY(int a, int d, int f, int g){
+return a*d-f*g;
 }
