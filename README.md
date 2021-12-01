@@ -55,7 +55,7 @@ Che dovrebbe stampare 2
 
 ## Calcolo della x soluzione 
 
-Se D != 0 posso calcolare l'ascissa della soluzione:
+Se determinante != 0 posso calcolare l'ascissa della soluzione:
 
     int   Dx = D(c,f,b,e);
     float x = Dx/determinante;
@@ -64,7 +64,7 @@ Se D != 0 posso calcolare l'ascissa della soluzione:
 
 ## Calcolo della y soluzione 
 
-Se D != 0 posso calcolare l'ordinata della soluzione:
+Se determinante != 0 posso calcolare l'ordinata della soluzione:
 
      int   Dx = D(c,f,b,e);
      float y = Dx/determinante;
