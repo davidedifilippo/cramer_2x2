@@ -4,7 +4,7 @@ Scaricare il file o copiare il codice in un file di nome
 
         cramer_lib.h 
         
-Includere cramer_lib.h nel programma principale che possiamo chaimare Cramer.cpp:
+Includere cramer_lib.h nel programma principale che possiamo chimare Cramer.cpp:
 
     #include <iostream>
     #include "cramer_lib.h"
